@@ -28,7 +28,7 @@ html {
     }
 
     body {
-        h1('Hello starnger. ')
+        h1('Hello stranger. ')
         span(id: 'toggle', class: 'clickable', 'Click me, please.')
         h2(class: 'hidden') {
           yield('I was toggled by jQuery brought to you by ')
