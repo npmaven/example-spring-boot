@@ -2,7 +2,7 @@ yieldUnescaped '<!DOCTYPE html>'
 html {
     head {
         title('Spring Boot - Groovy templates example')
-        script(type: 'text/javascript', src: '/npmaven/jquery/dist/jquery.js'){}
+        script(type: 'text/javascript', src: '/org/npmaven/jquery/dist/jquery.js'){}
         style {
             yieldUnescaped '''
                 .hidden {
