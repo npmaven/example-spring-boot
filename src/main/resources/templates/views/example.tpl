@@ -32,7 +32,9 @@ html {
         span(id: 'toggle', class: 'clickable', 'Click me, please.')
         h2(class: 'hidden') {
           yield('I was toggled by jQuery brought to you by ')
-          a(href: 'http://npmaven.org')
+          a(href: 'http://npmaven.org', target: '_blank') {
+            yield('npmaven')
+          }
           yield('! Woohoo!')
         }
         script {
